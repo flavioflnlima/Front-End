@@ -2,4 +2,43 @@
     margin: 0;    
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Classes Auxiliares*/
+.container{
+    max-width: 1260px;
+    margin:0 auto;
+    padding:0 2%;
+}
+.clear{clear: both;}
+
+/*Classes do meu Site*/
+header{
+    padding: 8px 0;
+    background: gray;
+}
+.logo{
+    float: left;
+}
+nav.menu-desktop li.selected{font-weight: bold;}
+
+nav.menu-desktop{
+    float: right;
+}
+nav.menu-desktop ul{
+    position: relative;
+    top: 28px;
+}
+nav.menu-desktop li{
+    padding: 0 10px;
+    display: inline-block;
+    font-weight: lighter;
+}
+nav.menu-desktop a{
+    color: white;
+    text-decoration: none;
+}
+nav.menu-desktop a:hover{
+    text-decoration: underline;
 }
