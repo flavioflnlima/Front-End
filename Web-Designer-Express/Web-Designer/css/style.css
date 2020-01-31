@@ -1,79 +1,121 @@
-*{
-    margin: 0;    
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*Classes Auxiliares*/
-.container{
-    max-width: 1260px;
-    margin:0 auto;
-    padding:0 2%;
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 2%;
 }
-.clear{clear: both;}
+.clear {
+  clear: both;
+}
 
 /*Classes do meu Site*/
-header{
-    padding: 8px 0;
-    background: rgb(255, 255, 255);
+header {
+  padding: 8px 0;
+  background: rgb(255, 255, 255);
 }
-.logo{
-    float: left;
+.logo {
+  float: left;
 }
-nav.menu-desktop li.selected{font-weight: normal;}
+nav.menu-desktop li.selected {
+  font-weight: normal;
+}
 
-nav.menu-desktop{
-    float: right;
+nav.menu-desktop {
+  float: right;
 }
-nav.menu-desktop ul{
-    position: relative;
-    top: 8px;
+nav.menu-desktop ul {
+  position: relative;
+  top: 8px;
 }
-nav.menu-desktop li{
-    padding: 0 10px;
-    display: inline-block;
-    font-weight: lighter;
+nav.menu-desktop li {
+  padding: 0 10px;
+  display: inline-block;
+  font-weight: lighter;
 }
-nav.menu-desktop a{
-    color: black;
-    text-decoration: none;
+nav.menu-desktop a {
+  color: black;
+  text-decoration: none;
 }
-nav.menu-desktop a:hover{
-    text-decoration: underline;
+nav.menu-desktop a:hover {
+  text-decoration: underline;
 }
 /*section main*/
-section.main-bg{
-    position: relative;
-    width: 100%;
-    padding: 90px 0 150px 0;
-    background-image: url('../img/img-Cybersecurity_OT-Security-a.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+section.main-bg {
+  position: relative;
+  width: 100%;
+  padding: 90px 0 150px 0;
+  background-image: url("../img/img-Cybersecurity_OT-Security-a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-section.main-bg > .container{
-    position: relative;
-    z-index: 2;
+section.main-bg > .container {
+  position: relative;
+  z-index: 2;
 }
-.overlay{
-    z-index: 1;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    left: 0;
-    top: 0;
+.overlay {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  left: 0;
+  top: 0;
 }
-section.main-bg h2{
-    text-align: center;
-    color: #42bbb7;
-    font-size: 30px;
-    font-weight: normal;
+section.main-bg h2 {
+  text-align: center;
+  color: #42bbb7;
+  font-size: 30px;
+  font-weight: normal;
 }
-section.main-bg p{
-    text-align: left;
-    color: white;
-    font-size: 17px;
-    margin-top: 15px;
+section.main-bg p {
+  text-align: justify;
+  color: white;
+  font-size: 17px;
+  margin-top: 15px;
+}
+/*section diferenciais*/
+section.experiencia-usuario {
+  padding: 30px 0;
+  text-align: center;
+}
+.line-text {
+  position: relative;
+  display: inline-block;
+  color: #42bbb7;
+}
+.line-text > div {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 3px;
+  background: #42bbb7;
+  transform: translate(-50%, -50%);
+}
+.line-text h2 {
+  font-weight: normal;
+  font-size: 27px;
+}
+.incones-experiencia-usuario{
+    margin-top: 30px;
+}
+.box-icone-individual{
+    float: left;
+    width: 33.3%;
+}
+.box-icone-individual  h2 i{
+    color: #2259a1;
+    font-size: 40px;
+}
+.box-icone-individual p{
+    padding:6px 20px;
+    text-align: justify;
 }
