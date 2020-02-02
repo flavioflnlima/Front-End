@@ -17,14 +17,14 @@
 
 /*Classes do meu Site*/
 header {
-  padding: 8px 0;
+  padding: 15px 0;
   background: rgb(255, 255, 255);
 }
 .logo {
   float: left;
 }
 nav.menu-desktop li.selected {
-  font-weight: normal;
+  font-weight: bold;
 }
 
 nav.menu-desktop {
@@ -37,7 +37,7 @@ nav.menu-desktop ul {
 nav.menu-desktop li {
   padding: 0 10px;
   display: inline-block;
-  font-weight: lighter;
+  font-weight: normal;
 }
 nav.menu-desktop a {
   color: black;
@@ -50,13 +50,14 @@ nav.menu-desktop a:hover {
 section.main-bg {
   position: relative;
   width: 100%;
-  padding: 90px 0 150px 0;
-  background-image: url("../img/img-Cybersecurity_OT-Security-a.jpg");
+  padding: 90px 0 250px 0;
+  background-image: url("../img/img-bloco-notas.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 section.main-bg > .container {
+  top: 30px;
   position: relative;
   z-index: 2;
 }
@@ -72,17 +73,29 @@ section.main-bg > .container {
 section.main-bg h2 {
   text-align: center;
   color: #42bbb7;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: normal;
 }
 section.main-bg p {
-  text-align: justify;
+  text-align: center;
   color: white;
-  font-size: 17px;
+  font-size: 22px;
   margin-top: 15px;
 }
-/*section diferenciais*/
-section.experiencia-usuario {
+section.main-bg input {
+  position: absolute;
+  margin-top: 10%;
+  left: 50%;
+  padding: 15px 50px;
+  border-width: 0;
+  border-radius: 6px;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+  background-color: #42bbb7;
+}
+/*section experiencia do usuário*/
+section.sobre-nos {
   padding: 30px 0;
   text-align: center;
 }
@@ -104,18 +117,27 @@ section.experiencia-usuario {
   font-weight: normal;
   font-size: 27px;
 }
-.incones-experiencia-usuario{
-    margin-top: 30px;
+.incones-sobre-nos {
+  margin-top: 30px;
 }
-.box-icone-individual{
-    float: left;
-    width: 33.3%;
+.box-icone-individual {
+  float: left;
+  width: 50%;
 }
-.box-icone-individual  h2 i{
-    color: #2259a1;
-    font-size: 40px;
+@media screen and (max-width: 500px) {
+  .box-icone-individual {
+    width: 100%;
+  }
 }
-.box-icone-individual p{
-    padding:6px 20px;
-    text-align: justify;
+.box-icone-individual h2 i {
+  color: #2259a1;
+  font-size: 40px;
+}
+.box-icone-individual h4 {
+  padding: 6px 20px;
+  text-align: center;
+}
+.box-icone-individual p {
+  padding: 0 20px;
+  text-align: justify;
 }
