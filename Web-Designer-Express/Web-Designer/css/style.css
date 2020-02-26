@@ -94,8 +94,8 @@ section.main-bg input {
   color: white;
   background-color: #42bbb7;
 }
-/*section experiencia do usuário*/
-section.sobre-nos {
+/*section Nosso Trabalho*/
+section.nosso-trabalho {
   padding: 30px 0;
   text-align: center;
 }
@@ -116,28 +116,75 @@ section.sobre-nos {
 .line-text h2 {
   font-weight: normal;
   font-size: 27px;
+  text-align: center;
 }
-.incones-sobre-nos {
+.incones-nosso-trabalho {
   margin-top: 30px;
 }
 .box-icone-individual {
   float: left;
   width: 50%;
 }
+.box-icone-individual h2 i {
+  color: #2259a1;
+  font-size: 40px;
+  padding: 3px;
+}
+.box-icone-individual h4 {
+  padding: 0px 20px;
+  text-align: center;
+}
+.box-icone-individual p {
+  padding: 5px 20px;
+  text-align: justify;
+}
+/*Section sobre equipe*/
+section.sobre-equipe{
+  padding: 30px 0;
+  background: rgb(225, 225, 225);
+}
+section.sobre-equipe > .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobre-container{
+  width:70%;
+}
+.sobre-container p{
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+.equipe-container{  
+  width:30%;
+  text-align: center;
+}
+.avatar-box {
+  position: relative;
+  display: inline-flex;
+  margin-top: 10px;
+}
+.img-avatar{
+  display: inline-block;
+  margin-top: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-size: 100% 100%;  
+}
+.descricao-avatar{
+  padding: 0 10px;
+  display: inline-block;
+}
 @media screen and (max-width: 500px) {
   .box-icone-individual {
     width: 100%;
   }
-}
-.box-icone-individual h2 i {
-  color: #2259a1;
-  font-size: 40px;
-}
-.box-icone-individual h4 {
-  padding: 6px 20px;
-  text-align: center;
-}
-.box-icone-individual p {
-  padding: 0 20px;
-  text-align: justify;
+  .equipe-container{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .sobre-container{
+    width:  100%;
+  }
 }
